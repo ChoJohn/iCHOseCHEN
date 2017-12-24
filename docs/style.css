@@ -93,7 +93,7 @@ a:hover {
 
 .info {
   font-size: 300%;
-  height: 70%;
+  height: 65%;
 }
 
 .content {
@@ -204,9 +204,17 @@ a:hover {
   font-size: 20px;
 }
 
-.faq {
+.faqContent {
+  font-size: 300%;
+  height: 80%;
   padding-top: 2%;
   padding-bottom: 2%;
+}
+
+.faq {
+  padding-top: 2%;
+  padding-bottom: 5%;
+  font-family: 'Handlee', cursive;
 }
 
 .question {
@@ -218,7 +226,10 @@ a:hover {
   font-size: 80%;
 }
 
-
+.glyphicon-chevron-right {
+  font-size: 15px;
+  padding-left: 50%;
+}
 
 /* GRID SYSTEM */
 .grid-container {
