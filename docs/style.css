@@ -23,228 +23,13 @@ a:hover {
   color: #5D9688;
 }
 
-.parallax {
-    /* The image used */
-    background-image: url("image/cPhoto2.jpg");
-
-    /* Set a specific height */
-    height: 100%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallaxMap {
-    /* The image used */
-    background-image: url("image/cPhoto2.jpg");
-
-    /* Set a specific height */
-    height: 75%;
-    width: 100%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 @font-face {
   font-family:BS;
   src: url("./font/BlingtasticScript.ttf"); /* TTF file for CSS3 browsers */
   font-weight: bold;
 }
 
-.row {
-  width: 100%;
-  margin: 0px;
-}
 
-.menubar {
-  background-color: #F9F0E0;
-  height: 8%;
-  width: 100%;
-  position: fixed;
-  display: block;
-  top: 0px;
-}
-
-.menu {
-  background-color: #F9F0E0;
-  display : flex;
-  align-items : center;
-  height: 100%;
-  top: 0px;
-}
-
-.glyphicon-heart {
-    font-size: 15px;
-    padding-left: 1%;
-    padding-right: 1%;
-}
-
-.glyphicon-thumbs-up {
-    font-size: 20px;
-}
-
-.tab {
-  color: #D88695;
-  display: block;
-  font-size: 200%;
-  padding-top: 1%;
-}
-
-.tabSpace {
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
-.sideFlower {
-  padding-top: 1%;
-}
-
-.info {
-  font-size: 300%;
-  height: 65%;
-}
-
-.content {
-  padding-top: 10%;
-}
-
-.comingSoon {
-  padding-top: 25%;
-  font-family: BS;
-  font-size: 300%;
-}
-
-.gradient_one {
-    border: 0;
-    height: 1px;
-    width: 25%;
-    background: #5D9688;
-    background-image: -webkit-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
-    background-image: -moz-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
-    background-image: -ms-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
-    background-image: -o-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
-}
-
-.rsvp {
-  font-size: 200%;
-  font-family: 'Bad Script', cursive;
-}
-
-.attire {
-  font-size: 100%;
-  font-family: 'Euphoria Script', cursive;
-}
-
-.button {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #5D9688;
-  border: none;
-  color: #F9F0E0;
-  text-align: center;
-  font-size: 30%;
-  font-family: 'Josefin Sans', sans-serif;
-  padding: 1%;
-  width: 10%;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 1%;
-}
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20%;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 30%;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-.countdown {
-  font-family: BS;
-  color: #D88695;
-  text-align: center;
-  font-size: 300%;
-  padding: 5%;
-}
-
-.clock {
-  font-size: 400%;
-}
-
-.centre {
-  text-align: center;
-}
-
-.day {
-  text-align: right;
-}
-
-.hour {
-  text-align: center;
-}
-
-.minute {
-  text-align: left;
-}
-
-.mainTitle {
-  font-size: 200%;
-}
-
-.glyphicon-heart-empty {
-  font-size: 20px;
-}
-
-.faqContent {
-  font-size: 300%;
-  height: 80%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
-
-.faq {
-  padding-top: 2%;
-  padding-bottom: 5%;
-  font-family: 'Handlee', cursive;
-}
-
-.question {
-  font-size: 100%;
-  font-weight: bold;
-}
-
-.answer {
-  font-size: 80%;
-}
-
-.glyphicon-chevron-right {
-  font-size: 15px;
-  padding-left: 50%;
-}
 
 /* GRID SYSTEM */
 .grid-container {
@@ -340,590 +125,1293 @@ a:hover {
 }*/
 
 /* RESPONSIVE */
-/* ipad Pro */
-@media all and (max-width:1024px){
-  .column-1{
-    width: 8.33%;
-  }
-  .column-2{
-    width: 16.66%;
-  }
-  .column-3{
-    width: 25%;
-  }
-  .column-4{
-    width: 33.33%;
-  }
-  .column-5{
-    width: 41.66%;
-  }
-  .column-6{
-    width: 50%;
-  }
-  .column-7{
-    width: 58.33%;
-  }
-  .column-8{
-    width: 66.66%;
-  }
-  .column-9{
-    width: 75%;
-  }
-  .column-10{
-    width: 83.33%;
-  }
-  .column-11{
-    width: 91.66%;
-  }
-  .column-12{
-    width: 100%;
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .parallax {
+      /* The image used */
+      background-image: url("image/cPhoto2.jpg");
+
+      /* Set a specific height */
+      height: 550px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
   }
 
-  .tab {
-    font-size: 325%;
+  .row {
+    width: 100%;
+    margin: 0px;
   }
 
   .menubar {
-    background-color: #7A988C;
-    height: 15%;
+    background-color: #F9F0E0;
+    height: 6%;
     width: 100%;
     position: fixed;
     display: block;
     top: 0px;
-    right: 0px;
-    left: 0px;
-    margin: 0px;
   }
 
   .menu {
-    background-color: #7A988C;
+    background-color: #F9F0E0;
     display : flex;
     align-items : center;
-    height: 25%;
+    height: 100%;
     top: 0px;
   }
 
-  .content {
-    font-family: BS , Helvetica Neue, Helvetica, Arial, sans-serif;
-    margin: 25% 10% 5% 10%;
-    padding: 5%;
-    background: rgba(25, 25, 25, 0.3);
+  .glyphicon-heart {
+      font-size: 15px;
+      padding-left: 1%;
+      padding-right: 1%;
+  }
+
+  .glyphicon-thumbs-up {
+      font-size: 20px;
+  }
+
+  .tab {
     color: #D88695;
+    display: block;
     font-size: 200%;
+    padding-top: 1%;
   }
 
-  .subtitle {
-    font-size: 150%;
+  .tabSpace {
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
-  .mainSection {
-    height: 100%;
+  .sideFlower {
+    padding-top: 1%;
+  }
+
+  .info {
+    font-size: 300%;
+    height: 60%;
     width: 100%;
-    margin-top: 25%;
   }
 
-  .day {
-    float: left;
-    min-height: 1px;
-    text-align: right;
-    font-size: 150%;
+  .infoContent {
+    padding-top: 2%;
   }
 
-  .hour {
-    float: left;
-    min-height: 1px;
+  .map {
+    height: 60%;
+  }
+
+  .comingSoon {
+    padding-top: 25%;
+    font-family: BS;
+    font-size: 300%;
+  }
+
+  .gradient_one {
+      border: 0;
+      height: 1px;
+      width: 25%;
+      background: #5D9688;
+      background-image: -webkit-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -moz-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -ms-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -o-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+  }
+
+  .rsvp {
+    height: 100%;
+    font-size: 200%;
+    font-family: 'Bad Script', cursive;
+  }
+
+  .attire {
+    height: 100%;
+    font-size: 100%;
+    font-family: 'Euphoria Script', cursive;
+  }
+
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #5D9688;
+    border: none;
+    color: #F9F0E0;
     text-align: center;
-    font-size: 150%;
+    font-size: 30%;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 1%;
+    width: 10%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1%;
   }
 
-  .minute {
-    float: left;
-    min-height: 1px;
-    text-align: left;
-    font-size: 150%;
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
   }
 
-  .mainTitle {
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20%;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 30%;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .countdown {
+    font-family: BS;
+    color: #D88695;
+    text-align: center;
+    font-size: 300%;
+    padding: 5%;
+  }
+
+  .clock {
     font-size: 400%;
   }
 
-  .clock {
-    font-size: 700%;
+  .centre {
+    text-align: center;
   }
 
-  .glyphicon {
-    font-size: 300%;
-  }
-}
-
-/* ipad */
-@media all and (max-width:768px){
-    {
-    width: 100%;
+  .day {
+    text-align: right;
   }
 
-  .column-1{
-    width: 8.33%;
-  }
-  .column-2{
-    width: 16.66%;
-  }
-  .column-3{
-    width: 25%;
-  }
-  .column-4{
-    width: 33.33%;
-  }
-  .column-5{
-    width: 41.66%;
-  }
-  .column-6{
-    width: 50%;
-  }
-  .column-7{
-    width: 58.33%;
-  }
-  .column-8{
-    width: 66.66%;
-  }
-  .column-9{
-    width: 75%;
-  }
-  .column-10{
-    width: 83.33%;
-  }
-  .column-11{
-    width: 91.66%;
-  }
-  .column-12{
-    width: 100%;
+  .hour {
+    text-align: center;
   }
 
-  .tab {
-    font-size: 250%;
+  .minute {
+    text-align: left;
   }
 
-  .logo {
-    width: 8%;
-  }
-
-  .menubar {
-    background-color: #7A988C;
-    height: 15%;
-    width: 100%;
-    position: fixed;
-    display: block;
-    top: 0px;
-    right: 0px;
-    left: 0px;
-    margin: 0px;
-  }
-
-  .menu {
-    background-color: #7A988C;
-    display : flex;
-    align-items : center;
-    height: 25%;
-    top: 0px;
-  }
-
-  .content {
-    font-family: BS , Helvetica Neue, Helvetica, Arial, sans-serif;
-    margin: 25% 10% 5% 10%;
-    padding: 5%;
-    background: rgba(25, 25, 25, 0.3);
-    color: #D88695;
+  .mainTitle {
     font-size: 200%;
   }
 
-  .subtitle {
-    font-size: 150%;
+  .glyphicon-heart-empty {
+    font-size: 20px;
   }
 
-  .mainSection {
-    height: 100%;
-    width: 100%;
-    margin-top: 25%;
-  }
-
-  .day {
-    float: left;
-    min-height: 1px;
-    text-align: right;
-    font-size: 125%;
-  }
-
-  .hour {
-    float: left;
-    min-height: 1px;
-    text-align: center;
-    font-size: 125%;
-  }
-
-  .minute {
-    float: left;
-    min-height: 1px;
-    text-align: left;
-    font-size: 125%;
-  }
-
-  .mainTitle {
+  .faqContent {
     font-size: 300%;
+    height: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
 
-  .clock {
-    font-size: 500%;
+  .faq {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-family: 'Handlee', cursive;
   }
 
-  .glyphicon {
-    font-size: 250%;
-  }
-}
-
-/*iphone 6 Plus*/
-@media all and (max-width:414px){
-
-  .column-1{
-    width: 8.33%;
-  }
-  .column-2{
-    width: 16.66%;
-  }
-  .column-3{
-    width: 25%;
-  }
-  .column-4{
-    width: 33.33%;
-  }
-  .column-5{
-    width: 41.66%;
-  }
-  .column-6{
-    width: 50%;
-  }
-  .column-7{
-    width: 58.33%;
-  }
-  .column-8{
-    width: 66.66%;
-  }
-  .column-9{
-    width: 75%;
-  }
-  .column-10{
-    width: 83.33%;
-  }
-  .column-11{
-    width: 91.66%;
-  }
-  .column-12{
-    width: 100%;
-  }
-
-  .tab {
+  .question {
     font-size: 100%;
+    font-weight: bold;
+  }
+
+  .answer {
+    font-size: 80%;
+  }
+
+  .glyphicon-chevron-right {
+    font-size: 15px;
+    padding-left: 50%;
+  }
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .parallax {
+      /* The image used */
+      background-image: url("image/cPhoto2.jpg");
+
+      /* Set a specific height */
+      height: 600px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .row {
+    width: 100%;
+    margin: 0px;
   }
 
   .menubar {
-    background-color: #7A988C;
-    height: 10%;
+    background-color: #F9F0E0;
+    height: 3%;
     width: 100%;
     position: fixed;
     display: block;
     top: 0px;
-    right: 0px;
-    left: 0px;
-    margin: 0px;
   }
 
   .menu {
-    background-color: #7A988C;
+    background-color: #F9F0E0;
     display : flex;
     align-items : center;
-    height: 25%;
+    height: 100%;
     top: 0px;
   }
 
-  .content {
-    font-family: BS , Helvetica Neue, Helvetica, Arial, sans-serif;
-    margin: 25% 10% 5% 10%;
-    padding: 5%;
-    background: rgba(25, 25, 25, 0.3);
-    color: #D88695;
+  .glyphicon-heart {
+      font-size: 15px;
+      padding-left: 1%;
+      padding-right: 1%;
   }
 
-  .subtitle {
-    font-size: 150%;
-  }
-
-  .mainSection {
-    height: 100%;
-    width: 100%;
-    margin-top: 25%;
-  }
-
-  .day {
-    float: left;
-    min-height: 1px;
-    text-align: right;
-    font-size: 50%;
-  }
-
-  .hour {
-    float: left;
-    min-height: 1px;
-    text-align: center;
-    font-size: 50%;
-  }
-
-  .minute {
-    float: left;
-    min-height: 1px;
-    text-align: left;
-    font-size: 50%;
-  }
-
-  .mainTitle {
-    font-size: 150%;
-  }
-
-  .clock {
-    font-size: 300%;
-  }
-
-  .glyphicon {
-    font-size: 150%;
-  }
-}
-
-/*iphone 6*/
-@media all and (max-width:375px){
-
-  .column-1{
-    width: 8.33%;
-  }
-  .column-2{
-    width: 16.66%;
-  }
-  .column-3{
-    width: 25%;
-  }
-  .column-4{
-    width: 33.33%;
-  }
-  .column-5{
-    width: 41.66%;
-  }
-  .column-6{
-    width: 50%;
-  }
-  .column-7{
-    width: 58.33%;
-  }
-  .column-8{
-    width: 66.66%;
-  }
-  .column-9{
-    width: 75%;
-  }
-  .column-10{
-    width: 83.33%;
-  }
-  .column-11{
-    width: 91.66%;
-  }
-  .column-12{
-    width: 100%;
+  .glyphicon-thumbs-up {
+      font-size: 20px;
   }
 
   .tab {
-    font-size: 95%;
+    color: #D88695;
+    display: block;
+    font-size: 200%;
+    padding-top: 1%;
+  }
+
+  .tabSpace {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .sideFlower {
+    padding-top: 1%;
+  }
+
+  .info {
+    font-size: 300%;
+    height: 75%;
+    width: 100%;
+  }
+
+  .infoContent {
+    padding-top: 10%;
+    height: 75%;
+    width: 100%;
+  }
+
+  .comingSoon {
+    padding-top: 25%;
+    font-family: BS;
+    font-size: 300%;
+  }
+
+  .gradient_one {
+      border: 0;
+      height: 1px;
+      width: 25%;
+      background: #5D9688;
+      background-image: -webkit-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -moz-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -ms-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -o-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+  }
+
+  .rsvp {
+    height: 100%;
+    font-size: 200%;
+    font-family: 'Bad Script', cursive;
+  }
+
+  .attire {
+    height: 100%;
+    font-size: 100%;
+    font-family: 'Euphoria Script', cursive;
+  }
+
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #5D9688;
+    border: none;
+    color: #F9F0E0;
+    text-align: center;
+    font-size: 30%;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 1%;
+    width: 10%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1%;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20%;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 30%;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .countdown {
+    font-family: BS;
+    color: #D88695;
+    text-align: center;
+    font-size: 300%;
+    padding: 5%;
+  }
+
+  .clock {
+    font-size: 400%;
+  }
+
+  .centre {
+    text-align: center;
+  }
+
+  .day {
+    text-align: right;
+  }
+
+  .hour {
+    text-align: center;
+  }
+
+  .minute {
+    text-align: left;
+  }
+
+  .mainTitle {
+    font-size: 200%;
+  }
+
+  .glyphicon-heart-empty {
+    font-size: 20px;
+  }
+
+  .faqContent {
+    font-size: 300%;
+    height: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .faq {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-family: 'Handlee', cursive;
+  }
+
+  .question {
+    font-size: 100%;
+    font-weight: bold;
+  }
+
+  .answer {
+    font-size: 80%;
+  }
+
+  .glyphicon-chevron-right {
+    font-size: 15px;
+    padding-left: 50%;
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .parallax {
+      /* The image used */
+      background-image: url("image/cPhoto2.jpg");
+
+      /* Set a specific height */
+      height: 600px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .row {
+    width: 100%;
+    margin: 0px;
   }
 
   .menubar {
-    background-color: #7A988C;
-    height: 10%;
+    background-color: #F9F0E0;
+    height: 3%;
     width: 100%;
     position: fixed;
     display: block;
     top: 0px;
-    right: 0px;
-    left: 0px;
-    margin: 0px;
   }
 
   .menu {
-    background-color: #7A988C;
+    background-color: #F9F0E0;
     display : flex;
     align-items : center;
-    height: 25%;
+    height: 100%;
     top: 0px;
   }
 
-  .content {
-    font-family: BS , Helvetica Neue, Helvetica, Arial, sans-serif;
-    margin: 25% 10% 5% 10%;
-    padding: 5%;
-    background: rgba(25, 25, 25, 0.3);
-    color: #D88695;
+  .glyphicon-heart {
+      font-size: 15px;
+      padding-left: 1%;
+      padding-right: 1%;
   }
 
-  .subtitle {
-    font-size: 150%;
-  }
-
-  .mainSection {
-    height: 100%;
-    width: 100%;
-    margin-top: 25%;
-  }
-
-  .day {
-    float: left;
-    min-height: 1px;
-    text-align: right;
-    font-size: 50%;
-  }
-
-  .hour {
-    float: left;
-    min-height: 1px;
-    text-align: center;
-    font-size: 50%;
-  }
-
-  .minute {
-    float: left;
-    min-height: 1px;
-    text-align: left;
-    font-size: 50%;
-  }
-
-  .mainTitle {
-    font-size: 150%;
-  }
-
-  .clock {
-    font-size: 300%;
-  }
-
-  .glyphicon {
-    font-size: 125%;
-  }
-}
-
-/*iphone5*/
-@media all and (max-width:320px){
-
-  .column-1{
-    width: 8.33%;
-  }
-  .column-2{
-    width: 16.66%;
-  }
-  .column-3{
-    width: 25%;
-  }
-  .column-4{
-    width: 33.33%;
-  }
-  .column-5{
-    width: 41.66%;
-  }
-  .column-6{
-    width: 50%;
-  }
-  .column-7{
-    width: 58.33%;
-  }
-  .column-8{
-    width: 66.66%;
-  }
-  .column-9{
-    width: 75%;
-  }
-  .column-10{
-    width: 83.33%;
-  }
-  .column-11{
-    width: 91.66%;
-  }
-  .column-12{
-    width: 100%;
+  .glyphicon-thumbs-up {
+      font-size: 20px;
   }
 
   .tab {
-    font-size: 70%;
+    color: #D88695;
+    display: block;
+    font-size: 200%;
+    padding-top: 1%;
+  }
+
+  .tabSpace {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .sideFlower {
+    padding-top: 1%;
+  }
+
+  .info {
+    font-size: 300%;
+    height: 75%;
+    width: 100%;
+  }
+
+  .infoContent {
+    padding-top: 10%;
+    height: 75%;
+    width: 100%;
+  }
+
+  .comingSoon {
+    padding-top: 25%;
+    font-family: BS;
+    font-size: 300%;
+  }
+
+  .gradient_one {
+      border: 0;
+      height: 1px;
+      width: 25%;
+      background: #5D9688;
+      background-image: -webkit-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -moz-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -ms-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -o-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+  }
+
+  .rsvp {
+    height: 100%;
+    font-size: 200%;
+    font-family: 'Bad Script', cursive;
+  }
+
+  .attire {
+    height: 100%;
+    font-size: 100%;
+    font-family: 'Euphoria Script', cursive;
+  }
+
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #5D9688;
+    border: none;
+    color: #F9F0E0;
+    text-align: center;
+    font-size: 30%;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 1%;
+    width: 10%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1%;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20%;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 30%;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .countdown {
+    font-family: BS;
+    color: #D88695;
+    text-align: center;
+    font-size: 300%;
+    padding: 5%;
+  }
+
+  .clock {
+    font-size: 400%;
+  }
+
+  .centre {
+    text-align: center;
+  }
+
+  .day {
+    text-align: right;
+  }
+
+  .hour {
+    text-align: center;
+  }
+
+  .minute {
+    text-align: left;
+  }
+
+  .mainTitle {
+    font-size: 200%;
+  }
+
+  .glyphicon-heart-empty {
+    font-size: 20px;
+  }
+
+  .faqContent {
+    font-size: 300%;
+    height: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .faq {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-family: 'Handlee', cursive;
+  }
+
+  .question {
+    font-size: 100%;
+    font-weight: bold;
+  }
+
+  .answer {
+    font-size: 80%;
+  }
+
+  .glyphicon-chevron-right {
+    font-size: 15px;
+    padding-left: 50%;
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .parallax {
+      /* The image used */
+      background-image: url("image/cPhoto2.jpg");
+
+      /* Set a specific height */
+      height: 600px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .row {
+    width: 100%;
+    margin: 0px;
   }
 
   .menubar {
-    background-color: #7A988C;
-    height: 10%;
+    background-color: #F9F0E0;
+    height: 3%;
     width: 100%;
     position: fixed;
     display: block;
     top: 0px;
-    right: 0px;
-    left: 0px;
-    margin: 0px;
   }
 
   .menu {
-    background-color: #7A988C;
+    background-color: #F9F0E0;
     display : flex;
     align-items : center;
-    height: 25%;
+    height: 100%;
     top: 0px;
   }
 
-  .content {
-    font-family: BS , Helvetica Neue, Helvetica, Arial, sans-serif;
-    margin: 25% 10% 5% 10%;
-    padding: 5%;
-    background: rgba(25, 25, 25, 0.3);
+  .glyphicon-heart {
+      font-size: 15px;
+      padding-left: 1%;
+      padding-right: 1%;
+  }
+
+  .glyphicon-thumbs-up {
+      font-size: 20px;
+  }
+
+  .tab {
     color: #D88695;
+    display: block;
+    font-size: 200%;
+    padding-top: 1%;
   }
 
-  .subtitle {
-    font-size: 150%;
+  .tabSpace {
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
-  .mainSection {
-    height: 100%;
+  .sideFlower {
+    padding-top: 1%;
+  }
+
+  .info {
+    font-size: 300%;
+    height: 75%;
     width: 100%;
-    margin-top: 25%;
   }
 
-  .day {
-    float: left;
-    min-height: 1px;
-    text-align: right;
-    font-size: 50%;
+  .infoContent {
+    padding-top: 10%;
+    height: 75%;
+    width: 100%;
   }
 
-  .hour {
-    float: left;
-    min-height: 1px;
-    text-align: center;
-    font-size: 50%;
-  }
-
-  .minute {
-    float: left;
-    min-height: 1px;
-    text-align: left;
-    font-size: 50%;
-  }
-
-  .mainTitle {
-    font-size: 125%;
-  }
-
-  .clock {
+  .comingSoon {
+    padding-top: 25%;
+    font-family: BS;
     font-size: 300%;
   }
 
-  .glyphicon {
-    font-size: 125%;
+  .gradient_one {
+      border: 0;
+      height: 1px;
+      width: 25%;
+      background: #5D9688;
+      background-image: -webkit-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -moz-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -ms-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -o-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+  }
+
+  .rsvp {
+    height: 100%;
+    font-size: 200%;
+    font-family: 'Bad Script', cursive;
+  }
+
+  .attire {
+    height: 100%;
+    font-size: 100%;
+    font-family: 'Euphoria Script', cursive;
+  }
+
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #5D9688;
+    border: none;
+    color: #F9F0E0;
+    text-align: center;
+    font-size: 30%;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 1%;
+    width: 10%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1%;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20%;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 30%;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .countdown {
+    font-family: BS;
+    color: #D88695;
+    text-align: center;
+    font-size: 300%;
+    padding: 5%;
+  }
+
+  .clock {
+    font-size: 400%;
+  }
+
+  .centre {
+    text-align: center;
+  }
+
+  .day {
+    text-align: right;
+  }
+
+  .hour {
+    text-align: center;
+  }
+
+  .minute {
+    text-align: left;
+  }
+
+  .mainTitle {
+    font-size: 200%;
+  }
+
+  .glyphicon-heart-empty {
+    font-size: 20px;
+  }
+
+  .faqContent {
+    font-size: 300%;
+    height: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .faq {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-family: 'Handlee', cursive;
+  }
+
+  .question {
+    font-size: 100%;
+    font-weight: bold;
+  }
+
+  .answer {
+    font-size: 80%;
+  }
+
+  .glyphicon-chevron-right {
+    font-size: 15px;
+    padding-left: 50%;
+  }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .parallax {
+      /* The image used */
+      background-image: url("image/cPhoto2.jpg");
+
+      /* Set a specific height */
+      height: 600px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .row {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .menubar {
+    background-color: #F9F0E0;
+    height: 3%;
+    width: 100%;
+    position: fixed;
+    display: block;
+    top: 0px;
+  }
+
+  .menu {
+    background-color: #F9F0E0;
+    display : flex;
+    align-items : center;
+    height: 100%;
+    top: 0px;
+  }
+
+  .glyphicon-heart {
+      font-size: 15px;
+      padding-left: 1%;
+      padding-right: 1%;
+  }
+
+  .glyphicon-thumbs-up {
+      font-size: 20px;
+  }
+
+  .tab {
+    color: #D88695;
+    display: block;
+    font-size: 200%;
+    padding-top: 1%;
+  }
+
+  .tabSpace {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .sideFlower {
+    padding-top: 1%;
+  }
+
+  .info {
+    font-size: 300%;
+    height: 75%;
+    width: 100%;
+  }
+
+  .infoContent {
+    padding-top: 10%;
+    height: 75%;
+    width: 100%;
+  }
+
+  .comingSoon {
+    padding-top: 25%;
+    font-family: BS;
+    font-size: 300%;
+  }
+
+  .gradient_one {
+      border: 0;
+      height: 1px;
+      width: 25%;
+      background: #5D9688;
+      background-image: -webkit-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -moz-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -ms-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -o-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+  }
+
+  .rsvp {
+    height: 100%;
+    font-size: 200%;
+    font-family: 'Bad Script', cursive;
+  }
+
+  .attire {
+    height: 100%;
+    font-size: 100%;
+    font-family: 'Euphoria Script', cursive;
+  }
+
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #5D9688;
+    border: none;
+    color: #F9F0E0;
+    text-align: center;
+    font-size: 30%;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 1%;
+    width: 10%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1%;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20%;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 30%;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .countdown {
+    font-family: BS;
+    color: #D88695;
+    text-align: center;
+    font-size: 300%;
+    padding: 5%;
+  }
+
+  .clock {
+    font-size: 400%;
+  }
+
+  .centre {
+    text-align: center;
+  }
+
+  .day {
+    text-align: right;
+  }
+
+  .hour {
+    text-align: center;
+  }
+
+  .minute {
+    text-align: left;
+  }
+
+  .mainTitle {
+    font-size: 200%;
+  }
+
+  .glyphicon-heart-empty {
+    font-size: 20px;
+  }
+
+  .faqContent {
+    font-size: 300%;
+    height: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .faq {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-family: 'Handlee', cursive;
+  }
+
+  .question {
+    font-size: 100%;
+    font-weight: bold;
+  }
+
+  .answer {
+    font-size: 80%;
+  }
+
+  .glyphicon-chevron-right {
+    font-size: 15px;
+    padding-left: 50%;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .parallax {
+      /* The image used */
+      background-image: url("image/cPhoto2.jpg");
+
+      /* Set a specific height */
+      height: 600px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .row {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .menubar {
+    background-color: #F9F0E0;
+    height: 3%;
+    width: 100%;
+    position: fixed;
+    display: block;
+    top: 0px;
+  }
+
+  .menu {
+    background-color: #F9F0E0;
+    display : flex;
+    align-items : center;
+    height: 100%;
+    top: 0px;
+  }
+
+  .glyphicon-heart {
+      font-size: 15px;
+      padding-left: 1%;
+      padding-right: 1%;
+  }
+
+  .glyphicon-thumbs-up {
+      font-size: 20px;
+  }
+
+  .tab {
+    color: #D88695;
+    display: block;
+    font-size: 200%;
+    padding-top: 1%;
+  }
+
+  .tabSpace {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .sideFlower {
+    padding-top: 1%;
+  }
+
+  .info {
+    font-size: 300%;
+    height: 75%;
+    width: 100%;
+  }
+
+  .infoContent {
+    padding-top: 10%;
+    height: 75%;
+    width: 100%;
+  }
+
+  .comingSoon {
+    padding-top: 25%;
+    font-family: BS;
+    font-size: 300%;
+  }
+
+  .gradient_one {
+      border: 0;
+      height: 1px;
+      width: 25%;
+      background: #5D9688;
+      background-image: -webkit-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -moz-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -ms-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -o-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+  }
+
+  .rsvp {
+    height: 100%;
+    font-size: 200%;
+    font-family: 'Bad Script', cursive;
+  }
+
+  .attire {
+    height: 100%;
+    font-size: 100%;
+    font-family: 'Euphoria Script', cursive;
+  }
+
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #5D9688;
+    border: none;
+    color: #F9F0E0;
+    text-align: center;
+    font-size: 30%;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 1%;
+    width: 10%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1%;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20%;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 30%;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .countdown {
+    font-family: BS;
+    color: #D88695;
+    text-align: center;
+    font-size: 300%;
+    padding: 5%;
+  }
+
+  .clock {
+    font-size: 400%;
+  }
+
+  .centre {
+    text-align: center;
+  }
+
+  .day {
+    text-align: right;
+  }
+
+  .hour {
+    text-align: center;
+  }
+
+  .minute {
+    text-align: left;
+  }
+
+  .mainTitle {
+    font-size: 200%;
+  }
+
+  .glyphicon-heart-empty {
+    font-size: 20px;
+  }
+
+  .faqContent {
+    font-size: 300%;
+    height: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .faq {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-family: 'Handlee', cursive;
+  }
+
+  .question {
+    font-size: 100%;
+    font-weight: bold;
+  }
+
+  .answer {
+    font-size: 80%;
+  }
+
+  .glyphicon-chevron-right {
+    font-size: 15px;
+    padding-left: 50%;
   }
 }
