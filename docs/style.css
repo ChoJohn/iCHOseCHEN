@@ -37,6 +37,20 @@ a:hover {
     background-size: cover;
 }
 
+.parallaxMap {
+    /* The image used */
+    background-image: url("image/cPhoto2.jpg");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @font-face {
   font-family:BS;
   src: url("./font/BlingtasticScript.ttf"); /* TTF file for CSS3 browsers */
