@@ -1,0 +1,887 @@
+body {
+  background: #F9F0E0 url();
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: 100%;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #D88695;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+  color: #D88695;
+}
+
+a:hover {
+  color: #5D9688;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("image/f8.jpg");
+
+    /* Set a specific height */
+    height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+  font-family:BS;
+  src: url("./font/BlingtasticScript.ttf"); /* TTF file for CSS3 browsers */
+  font-weight: bold;
+}
+
+.row {
+  width: 100%;
+  margin: 0px;
+}
+
+.menubar {
+  background-color: #F9F0E0;
+  height: 8%;
+  width: 100%;
+  position: fixed;
+  display: block;
+  top: 0px;
+}
+
+.menu {
+  background-color: #F9F0E0;
+  display : flex;
+  align-items : center;
+  height: 100%;
+  top: 0px;
+}
+
+.glyphicon-heart {
+    font-size: 15px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.glyphicon-thumbs-up {
+    font-size: 20px;
+}
+
+.tab {
+  color: #D88695;
+  display: block;
+  font-size: 200%;
+  padding-top: 1%;
+}
+
+.tabSpace {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.sideFlower {
+  padding-top: 1%;
+}
+
+.info {
+  font-size: 300%;
+  height: 70%;
+}
+
+.content {
+  padding-top: 10%;
+}
+
+.comingSoon {
+  padding-top: 25%;
+  font-family: BS;
+  font-size: 300%;
+}
+
+.gradient_one {
+    border: 0;
+    height: 1px;
+    width: 25%;
+    background: #5D9688;
+    background-image: -webkit-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+    background-image: -moz-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+    background-image: -ms-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+    background-image: -o-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+}
+
+.rsvp {
+  font-size: 200%;
+  font-family: 'Bad Script', cursive;
+}
+
+.attire {
+  font-size: 100%;
+  font-family: 'Euphoria Script', cursive;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #5D9688;
+  border: none;
+  color: #F9F0E0;
+  text-align: center;
+  font-size: 30%;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 1%;
+  width: 10%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 1%;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20%;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 30%;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.countdown {
+  font-family: BS;
+  color: #D88695;
+  text-align: center;
+  font-size: 300%;
+  padding: 5%;
+}
+
+.clock {
+  font-size: 400%;
+}
+
+.centre {
+  text-align: center;
+}
+
+.day {
+  text-align: right;
+}
+
+.hour {
+  text-align: center;
+}
+
+.minute {
+  text-align: left;
+}
+
+.mainTitle {
+  font-size: 200%;
+}
+
+.glyphicon-heart-empty {
+  font-size: 20px;
+}
+
+/* GRID SYSTEM */
+.grid-container {
+  width : 100%;
+  max-width : 1200px;
+}
+
+.row:before,
+.row:after {
+  content:"";
+  display: table ;
+  clear:both;
+}
+
+[class*='column-'] {
+  float: left;
+  min-height: 1px;
+}
+/*
+[class*='column-'] {
+  float: left;
+  min-height: 1px;
+  width: 16.66%;
+}*/
+
+[class*='col-'] {
+  float: left;
+  min-height: 1px;
+}
+
+.column-1{
+  width: 8.33%;
+}
+.column-2{
+  width: 16.66%;
+}
+.column-3{
+  width: 25%;
+}
+.column-4{
+  width: 33.33%;
+}
+.column-5{
+  width: 41.66%;
+}
+.column-6{
+  width: 50%;
+}
+.column-7{
+  width: 58.33%;
+}
+.column-8{
+  width: 66.66%;
+}
+.column-9{
+  width: 75%;
+}
+.column-10{
+  width: 83.33%;
+}
+.column-11{
+  width: 91.66%;
+}
+.column-12{
+  width: 100%;
+}
+
+.column-offset-1 {
+  width: 8.33%;
+}
+
+.column-offset-3 {
+  width: 25%;
+}
+
+.column-offset-4 {
+  width: 33.33%;
+}
+
+.column-offset-5 {
+  width: 41.66%;
+}
+
+.grid-container *{
+  box-sizing: border-box;
+}
+/*
+[class*='column-'] {
+  float: left;
+  min-height: 1px;
+  width: 16.66%;
+  padding: 12px;
+}*/
+
+/* RESPONSIVE */
+/* ipad Pro */
+@media all and (max-width:1024px){
+  .column-1{
+    width: 8.33%;
+  }
+  .column-2{
+    width: 16.66%;
+  }
+  .column-3{
+    width: 25%;
+  }
+  .column-4{
+    width: 33.33%;
+  }
+  .column-5{
+    width: 41.66%;
+  }
+  .column-6{
+    width: 50%;
+  }
+  .column-7{
+    width: 58.33%;
+  }
+  .column-8{
+    width: 66.66%;
+  }
+  .column-9{
+    width: 75%;
+  }
+  .column-10{
+    width: 83.33%;
+  }
+  .column-11{
+    width: 91.66%;
+  }
+  .column-12{
+    width: 100%;
+  }
+
+  .tab {
+    font-size: 325%;
+  }
+
+  .menubar {
+    background-color: #7A988C;
+    height: 15%;
+    width: 100%;
+    position: fixed;
+    display: block;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    margin: 0px;
+  }
+
+  .menu {
+    background-color: #7A988C;
+    display : flex;
+    align-items : center;
+    height: 25%;
+    top: 0px;
+  }
+
+  .content {
+    font-family: BS , Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 25% 10% 5% 10%;
+    padding: 5%;
+    background: rgba(25, 25, 25, 0.3);
+    color: #D88695;
+    font-size: 200%;
+  }
+
+  .subtitle {
+    font-size: 150%;
+  }
+
+  .mainSection {
+    height: 100%;
+    width: 100%;
+    margin-top: 25%;
+  }
+
+  .day {
+    float: left;
+    min-height: 1px;
+    text-align: right;
+    font-size: 150%;
+  }
+
+  .hour {
+    float: left;
+    min-height: 1px;
+    text-align: center;
+    font-size: 150%;
+  }
+
+  .minute {
+    float: left;
+    min-height: 1px;
+    text-align: left;
+    font-size: 150%;
+  }
+
+  .mainTitle {
+    font-size: 400%;
+  }
+
+  .clock {
+    font-size: 700%;
+  }
+
+  .glyphicon {
+    font-size: 300%;
+  }
+}
+
+/* ipad */
+@media all and (max-width:768px){
+    {
+    width: 100%;
+  }
+
+  .column-1{
+    width: 8.33%;
+  }
+  .column-2{
+    width: 16.66%;
+  }
+  .column-3{
+    width: 25%;
+  }
+  .column-4{
+    width: 33.33%;
+  }
+  .column-5{
+    width: 41.66%;
+  }
+  .column-6{
+    width: 50%;
+  }
+  .column-7{
+    width: 58.33%;
+  }
+  .column-8{
+    width: 66.66%;
+  }
+  .column-9{
+    width: 75%;
+  }
+  .column-10{
+    width: 83.33%;
+  }
+  .column-11{
+    width: 91.66%;
+  }
+  .column-12{
+    width: 100%;
+  }
+
+  .tab {
+    font-size: 250%;
+  }
+
+  .logo {
+    width: 8%;
+  }
+
+  .menubar {
+    background-color: #7A988C;
+    height: 15%;
+    width: 100%;
+    position: fixed;
+    display: block;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    margin: 0px;
+  }
+
+  .menu {
+    background-color: #7A988C;
+    display : flex;
+    align-items : center;
+    height: 25%;
+    top: 0px;
+  }
+
+  .content {
+    font-family: BS , Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 25% 10% 5% 10%;
+    padding: 5%;
+    background: rgba(25, 25, 25, 0.3);
+    color: #D88695;
+    font-size: 200%;
+  }
+
+  .subtitle {
+    font-size: 150%;
+  }
+
+  .mainSection {
+    height: 100%;
+    width: 100%;
+    margin-top: 25%;
+  }
+
+  .day {
+    float: left;
+    min-height: 1px;
+    text-align: right;
+    font-size: 125%;
+  }
+
+  .hour {
+    float: left;
+    min-height: 1px;
+    text-align: center;
+    font-size: 125%;
+  }
+
+  .minute {
+    float: left;
+    min-height: 1px;
+    text-align: left;
+    font-size: 125%;
+  }
+
+  .mainTitle {
+    font-size: 300%;
+  }
+
+  .clock {
+    font-size: 500%;
+  }
+
+  .glyphicon {
+    font-size: 250%;
+  }
+}
+
+/*iphone 6 Plus*/
+@media all and (max-width:414px){
+
+  .column-1{
+    width: 8.33%;
+  }
+  .column-2{
+    width: 16.66%;
+  }
+  .column-3{
+    width: 25%;
+  }
+  .column-4{
+    width: 33.33%;
+  }
+  .column-5{
+    width: 41.66%;
+  }
+  .column-6{
+    width: 50%;
+  }
+  .column-7{
+    width: 58.33%;
+  }
+  .column-8{
+    width: 66.66%;
+  }
+  .column-9{
+    width: 75%;
+  }
+  .column-10{
+    width: 83.33%;
+  }
+  .column-11{
+    width: 91.66%;
+  }
+  .column-12{
+    width: 100%;
+  }
+
+  .tab {
+    font-size: 100%;
+  }
+
+  .menubar {
+    background-color: #7A988C;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    display: block;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    margin: 0px;
+  }
+
+  .menu {
+    background-color: #7A988C;
+    display : flex;
+    align-items : center;
+    height: 25%;
+    top: 0px;
+  }
+
+  .content {
+    font-family: BS , Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 25% 10% 5% 10%;
+    padding: 5%;
+    background: rgba(25, 25, 25, 0.3);
+    color: #D88695;
+  }
+
+  .subtitle {
+    font-size: 150%;
+  }
+
+  .mainSection {
+    height: 100%;
+    width: 100%;
+    margin-top: 25%;
+  }
+
+  .day {
+    float: left;
+    min-height: 1px;
+    text-align: right;
+    font-size: 50%;
+  }
+
+  .hour {
+    float: left;
+    min-height: 1px;
+    text-align: center;
+    font-size: 50%;
+  }
+
+  .minute {
+    float: left;
+    min-height: 1px;
+    text-align: left;
+    font-size: 50%;
+  }
+
+  .mainTitle {
+    font-size: 150%;
+  }
+
+  .clock {
+    font-size: 300%;
+  }
+
+  .glyphicon {
+    font-size: 150%;
+  }
+}
+
+/*iphone 6*/
+@media all and (max-width:375px){
+
+  .column-1{
+    width: 8.33%;
+  }
+  .column-2{
+    width: 16.66%;
+  }
+  .column-3{
+    width: 25%;
+  }
+  .column-4{
+    width: 33.33%;
+  }
+  .column-5{
+    width: 41.66%;
+  }
+  .column-6{
+    width: 50%;
+  }
+  .column-7{
+    width: 58.33%;
+  }
+  .column-8{
+    width: 66.66%;
+  }
+  .column-9{
+    width: 75%;
+  }
+  .column-10{
+    width: 83.33%;
+  }
+  .column-11{
+    width: 91.66%;
+  }
+  .column-12{
+    width: 100%;
+  }
+
+  .tab {
+    font-size: 95%;
+  }
+
+  .menubar {
+    background-color: #7A988C;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    display: block;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    margin: 0px;
+  }
+
+  .menu {
+    background-color: #7A988C;
+    display : flex;
+    align-items : center;
+    height: 25%;
+    top: 0px;
+  }
+
+  .content {
+    font-family: BS , Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 25% 10% 5% 10%;
+    padding: 5%;
+    background: rgba(25, 25, 25, 0.3);
+    color: #D88695;
+  }
+
+  .subtitle {
+    font-size: 150%;
+  }
+
+  .mainSection {
+    height: 100%;
+    width: 100%;
+    margin-top: 25%;
+  }
+
+  .day {
+    float: left;
+    min-height: 1px;
+    text-align: right;
+    font-size: 50%;
+  }
+
+  .hour {
+    float: left;
+    min-height: 1px;
+    text-align: center;
+    font-size: 50%;
+  }
+
+  .minute {
+    float: left;
+    min-height: 1px;
+    text-align: left;
+    font-size: 50%;
+  }
+
+  .mainTitle {
+    font-size: 150%;
+  }
+
+  .clock {
+    font-size: 300%;
+  }
+
+  .glyphicon {
+    font-size: 125%;
+  }
+}
+
+/*iphone5*/
+@media all and (max-width:320px){
+
+  .column-1{
+    width: 8.33%;
+  }
+  .column-2{
+    width: 16.66%;
+  }
+  .column-3{
+    width: 25%;
+  }
+  .column-4{
+    width: 33.33%;
+  }
+  .column-5{
+    width: 41.66%;
+  }
+  .column-6{
+    width: 50%;
+  }
+  .column-7{
+    width: 58.33%;
+  }
+  .column-8{
+    width: 66.66%;
+  }
+  .column-9{
+    width: 75%;
+  }
+  .column-10{
+    width: 83.33%;
+  }
+  .column-11{
+    width: 91.66%;
+  }
+  .column-12{
+    width: 100%;
+  }
+
+  .tab {
+    font-size: 70%;
+  }
+
+  .menubar {
+    background-color: #7A988C;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    display: block;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    margin: 0px;
+  }
+
+  .menu {
+    background-color: #7A988C;
+    display : flex;
+    align-items : center;
+    height: 25%;
+    top: 0px;
+  }
+
+  .content {
+    font-family: BS , Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 25% 10% 5% 10%;
+    padding: 5%;
+    background: rgba(25, 25, 25, 0.3);
+    color: #D88695;
+  }
+
+  .subtitle {
+    font-size: 150%;
+  }
+
+  .mainSection {
+    height: 100%;
+    width: 100%;
+    margin-top: 25%;
+  }
+
+  .day {
+    float: left;
+    min-height: 1px;
+    text-align: right;
+    font-size: 50%;
+  }
+
+  .hour {
+    float: left;
+    min-height: 1px;
+    text-align: center;
+    font-size: 50%;
+  }
+
+  .minute {
+    float: left;
+    min-height: 1px;
+    text-align: left;
+    font-size: 50%;
+  }
+
+  .mainTitle {
+    font-size: 125%;
+  }
+
+  .clock {
+    font-size: 300%;
+  }
+
+  .glyphicon {
+    font-size: 125%;
+  }
+}
