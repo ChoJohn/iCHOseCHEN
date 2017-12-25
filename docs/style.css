@@ -128,10 +128,10 @@ a:hover {
 
 /*
   ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
+  ##Screen = 1440px to higher resolution desktops
 */
 
-@media (min-width: 1281px) {
+@media (min-width: 1440px) {
   .parallax {
       /* The image used */
       background-image: url("image/cPhoto2.jpg");
@@ -373,11 +373,505 @@ a:hover {
     border-style:solid;
     border-color: #D88695
     padding: 20px;
-    width: 60%;
+    width: 50%;
   }
-
 }
 
+/*
+  ##Device = Desktops + IpadPro
+  ##Screen = 1366px to 1439px
+*/
+
+@media (min-width: 1366px) and (max-width: 1439px) {
+  .parallax {
+      /* The image used */
+      background-image: url("image/cPhoto2.jpg");
+
+      /* Set a specific height */
+      height: 600px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+  }
+
+  .row {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .menubar {
+    background-color: #F9F0E0;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    display: block;
+    top: 0px;
+    font-size: 200%;
+    padding-top: 1%;
+  }
+
+  .menu {
+    background-color: #F9F0E0;
+    display : flex;
+    align-items : center;
+    height: 100%;
+    top: 0px;
+  }
+
+  .glyphicon-heart {
+      font-size: 25px;
+      padding-left: 1%;
+      padding-right: 1%;
+  }
+
+  .glyphicon-thumbs-up {
+      font-size: 20px;
+  }
+
+  .tab {
+    color: #D88695;
+    display: block;
+    font-size: 200%;
+    padding-top: 1%;
+  }
+
+  .tabSpace {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .sideFlower {
+    padding-top: 1%;
+  }
+
+  .info {
+    font-size: 300%;
+    height: 50%;
+    width: 100%;
+  }
+
+  .infoContent {
+    padding-top: 2%;
+  }
+
+  .map {
+    height: 60%;
+  }
+
+  .comingSoon {
+    padding-top: 25%;
+    font-family: BS;
+    font-size: 300%;
+  }
+
+  .gradient_one {
+      border: 0;
+      height: 1px;
+      width: 25%;
+      background: #5D9688;
+      background-image: -webkit-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -moz-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -ms-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -o-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+  }
+
+  .rsvp {
+    height: 100%;
+    font-size: 200%;
+    font-family: 'Bad Script', cursive;
+  }
+
+  .attire {
+    height: 100%;
+    font-size: 100%;
+    font-family: 'Euphoria Script', cursive;
+  }
+
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #5D9688;
+    border: none;
+    color: #F9F0E0;
+    text-align: center;
+    font-size: 30%;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 1%;
+    width: 10%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1%;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20%;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 30%;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .countdown {
+    font-family: BS;
+    color: #D88695;
+    text-align: center;
+    font-size: 300%;
+    padding: 5%;
+  }
+
+  .clock {
+    font-size: 400%;
+  }
+
+  .centre {
+    text-align: center;
+  }
+
+  .day {
+    text-align: right;
+  }
+
+  .hour {
+    text-align: center;
+  }
+
+  .minute {
+    text-align: left;
+  }
+
+  .mainTitle {
+    font-size: 200%;
+  }
+
+  .glyphicon-heart-empty {
+    font-size: 20px;
+  }
+
+  .faqContent {
+    font-size: 300%;
+    height: 100%;
+    padding-top: 5%;
+  }
+
+  .question {
+    font-size: 100%;
+    font-weight: bold;
+  }
+
+  .answer {
+    font-size: 80%;
+  }
+
+  .glyphicon-chevron-right {
+    font-size: 15px;
+    padding-left: 50%;
+  }
+
+  .hisStory {
+    font-family: BS, cursive;
+    font-size: 300%;
+  }
+
+  .herStory {
+    font-family: BS, cursive;
+    font-size: 300%;
+  }
+
+  .his {
+    padding-left: 3%;
+    font-size: 75%;
+    font-family: 'Cormorant', serif;
+  }
+
+  .her {
+    padding-right: 3%;
+    font-size: 75%;
+    font-family: 'Cormorant', serif;
+  }
+
+  .story {
+    padding-bottom: 3%;
+  }
+
+  .storySub {
+    border-radius: 50px;
+    border-width: 3px;
+    border-style:solid;
+    border-color: #D88695
+    padding: 20px;
+    width: 50%;
+  }
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to 1365px
+*/
+
+@media (min-width: 1281px) and (max-width: 1365px) {
+  .parallax {
+      /* The image used */
+      background-image: url("image/cPhoto2.jpg");
+
+      /* Set a specific height */
+      height: 550px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .row {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .menubar {
+    background-color: #F9F0E0;
+    height: 6%;
+    width: 100%;
+    position: fixed;
+    display: block;
+    top: 0px;
+  }
+
+  .menu {
+    background-color: #F9F0E0;
+    display : flex;
+    align-items : center;
+    height: 100%;
+    top: 0px;
+  }
+
+  .glyphicon-heart {
+      font-size: 15px;
+      padding-left: 1%;
+      padding-right: 1%;
+  }
+
+  .glyphicon-thumbs-up {
+      font-size: 20px;
+  }
+
+  .tab {
+    color: #D88695;
+    display: block;
+    font-size: 200%;
+    padding-top: 1%;
+  }
+
+  .tabSpace {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .sideFlower {
+    padding-top: 1%;
+  }
+
+  .info {
+    font-size: 300%;
+    height: 60%;
+    width: 100%;
+  }
+
+  .infoContent {
+    padding-top: 2%;
+  }
+
+  .map {
+    height: 60%;
+  }
+
+  .comingSoon {
+    padding-top: 25%;
+    font-family: BS;
+    font-size: 300%;
+  }
+
+  .gradient_one {
+      border: 0;
+      height: 1px;
+      width: 25%;
+      background: #5D9688;
+      background-image: -webkit-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -moz-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -ms-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -o-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+  }
+
+  .rsvp {
+    height: 100%;
+    font-size: 200%;
+    font-family: 'Bad Script', cursive;
+  }
+
+  .attire {
+    height: 100%;
+    font-size: 100%;
+    font-family: 'Euphoria Script', cursive;
+  }
+
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #5D9688;
+    border: none;
+    color: #F9F0E0;
+    text-align: center;
+    font-size: 30%;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 1%;
+    width: 10%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1%;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20%;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 30%;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .countdown {
+    font-family: BS;
+    color: #D88695;
+    text-align: center;
+    font-size: 300%;
+    padding: 5%;
+  }
+
+  .clock {
+    font-size: 400%;
+  }
+
+  .centre {
+    text-align: center;
+  }
+
+  .day {
+    text-align: right;
+  }
+
+  .hour {
+    text-align: center;
+  }
+
+  .minute {
+    text-align: left;
+  }
+
+  .mainTitle {
+    font-size: 200%;
+  }
+
+  .glyphicon-heart-empty {
+    font-size: 20px;
+  }
+
+  .faqContent {
+    font-size: 300%;
+    height: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .faq {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-family: 'Handlee', cursive;
+  }
+
+  .question {
+    font-size: 100%;
+    font-weight: bold;
+  }
+
+  .answer {
+    font-size: 80%;
+  }
+
+  .glyphicon-chevron-right {
+    font-size: 15px;
+    padding-left: 50%;
+  }
+
+  .hisStory {
+    font-family: BS, cursive;
+    font-size: 300%;
+  }
+
+  .herStory {
+    font-family: BS, cursive;
+    font-size: 300%;
+  }
+
+  .his {
+    padding-left: 3%;
+    font-size: 75%;
+    font-family: 'Cormorant', serif;
+  }
+
+  .her {
+    padding-right: 3%;
+    font-size: 75%;
+    font-family: 'Cormorant', serif;
+  }
+
+  .story {
+    padding-bottom: 3%;
+  }
+
+  .storySub {
+    border-radius: 50px;
+    border-width: 3px;
+    border-style:solid;
+    border-color: #D88695
+    padding: 20px;
+    width: 50%;
+  }
 }
 
 /*
@@ -391,7 +885,7 @@ a:hover {
       background-image: url("image/cPhoto2.jpg");
 
       /* Set a specific height */
-      height: 520px;
+      height: 500px;
 
       /* Create the parallax scrolling effect */
       background-attachment: fixed;
@@ -595,26 +1089,60 @@ a:hover {
     padding-left: 50%;
   }
 
+  .hisStory {
+    font-family: BS, cursive;
+    font-size: 300%;
+  }
+
+  .herStory {
+    font-family: BS, cursive;
+    font-size: 300%;
+  }
+
+  .his {
+    padding-left: 3%;
+    font-size: 75%;
+    font-family: 'Cormorant', serif;
+  }
+
+  .her {
+    padding-right: 3%;
+    font-size: 75%;
+    font-family: 'Cormorant', serif;
+  }
+
+  .story {
+    padding-bottom: 3%;
+  }
+
+  .storySub {
+    border-radius: 50px;
+    border-width: 3px;
+    border-style:solid;
+    border-color: #D88695
+    padding: 20px;
+    width: 50%;
+  }
 }
 
 /*
-  ##Device = Tablets, Ipads (portrait)
+  ##Device = Tablets, Ipads Pro (portrait)
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 992px) and (max-width: 1024px) and (orientation: portrait) {
   .parallax {
       /* The image used */
       background-image: url("image/cPhoto2.jpg");
 
       /* Set a specific height */
-      height: 400px;
+      height: 800px;
 
       /* Create the parallax scrolling effect */
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: 100% 100%;
   }
 
   .row {
@@ -624,11 +1152,13 @@ a:hover {
 
   .menubar {
     background-color: #F9F0E0;
-    height: 3%;
+    height: 9%;
     width: 100%;
     position: fixed;
     display: block;
     top: 0px;
+    padding-top: 2%;
+    font-size: 200%;
   }
 
   .menu {
@@ -640,7 +1170,7 @@ a:hover {
   }
 
   .glyphicon-heart {
-      font-size: 15px;
+      font-size: 25px;
       padding-left: 1%;
       padding-right: 1%;
   }
@@ -662,17 +1192,17 @@ a:hover {
   }
 
   .sideFlower {
-    padding-top: 1%;
+    padding-top: 5%;
   }
 
   .info {
     font-size: 300%;
-    height: 75%;
+    height: 43%;
     width: 100%;
   }
 
   .infoContent {
-    padding-top: 10%;
+    padding-top: 5%;
   }
 
   .map {
@@ -718,7 +1248,7 @@ a:hover {
     font-size: 30%;
     font-family: 'Josefin Sans', sans-serif;
     padding: 1%;
-    width: 10%;
+    width: 20%;
     transition: all 0.5s;
     cursor: pointer;
     margin: 1%;
@@ -788,7 +1318,7 @@ a:hover {
   .faqContent {
     font-size: 300%;
     height: 80%;
-    padding-top: 2%;
+    padding-top: 5%;
     padding-bottom: 2%;
   }
 
@@ -812,26 +1342,314 @@ a:hover {
     padding-left: 50%;
   }
 
+  .hisStory {
+    font-family: BS, cursive;
+    font-size: 300%;
+  }
+
+  .herStory {
+    font-family: BS, cursive;
+    font-size: 300%;
+  }
+
+  .his {
+    padding-left: 3%;
+    font-size: 75%;
+    font-family: 'Cormorant', serif;
+  }
+
+  .her {
+    padding-right: 3%;
+    font-size: 75%;
+    font-family: 'Cormorant', serif;
+  }
+
+  .story {
+    padding-bottom: 3%;
+  }
+
+  .storySub {
+    border-radius: 50px;
+    border-width: 3px;
+    border-style:solid;
+    border-color: #D88695
+    padding: 20px;
+    width: 60%;
+  }
 }
+
+/*
+  ##Device = Tablets, Ipads Pro (portrait)
+  ##Screen = B/w 768px to 992px
+*/
+
+@media (min-width: 768px) and (max-width: 992px) and (orientation: portrait) {
+  .parallax {
+      /* The image used */
+      background-image: url("image/cPhoto2.jpg");
+
+      /* Set a specific height */
+      height: 600px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+  }
+
+  .row {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .menubar {
+    background-color: #F9F0E0;
+    height: 8%;
+    width: 100%;
+    position: fixed;
+    display: block;
+    top: 0px;
+    padding-top: 2%;
+    font-size: 150%;
+  }
+
+  .menu {
+    background-color: #F9F0E0;
+    display : flex;
+    align-items : center;
+    height: 100%;
+    top: 0px;
+  }
+
+  .glyphicon-heart {
+      font-size: 25px;
+      padding-left: 1%;
+      padding-right: 1%;
+  }
+
+  .glyphicon-thumbs-up {
+      font-size: 20px;
+  }
+
+  .tab {
+    color: #D88695;
+    display: block;
+    font-size: 200%;
+    padding-top: 1%;
+  }
+
+  .tabSpace {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .sideFlower {
+    padding-top: 5%;
+  }
+
+  .info {
+    font-size: 300%;
+    height: 65%;
+    width: 100%;
+  }
+
+  .infoContent {
+    padding-top: 5%;
+  }
+
+  .map {
+    height: 60%;
+  }
+
+  .comingSoon {
+    padding-top: 25%;
+    font-family: BS;
+    font-size: 300%;
+  }
+
+  .gradient_one {
+      border: 0;
+      height: 1px;
+      width: 25%;
+      background: #5D9688;
+      background-image: -webkit-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -moz-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -ms-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -o-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+  }
+
+  .rsvp {
+    height: 100%;
+    font-size: 200%;
+    font-family: 'Bad Script', cursive;
+  }
+
+  .attire {
+    height: 100%;
+    font-size: 100%;
+    font-family: 'Euphoria Script', cursive;
+  }
+
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #5D9688;
+    border: none;
+    color: #F9F0E0;
+    text-align: center;
+    font-size: 30%;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 1%;
+    width: 25%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1%;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20%;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 30%;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .countdown {
+    font-family: BS;
+    color: #D88695;
+    text-align: center;
+    font-size: 300%;
+    padding: 5%;
+  }
+
+  .clock {
+    font-size: 400%;
+  }
+
+  .centre {
+    text-align: center;
+  }
+
+  .day {
+    text-align: right;
+  }
+
+  .hour {
+    text-align: center;
+  }
+
+  .minute {
+    text-align: left;
+  }
+
+  .mainTitle {
+    font-size: 200%;
+  }
+
+  .glyphicon-heart-empty {
+    font-size: 20px;
+  }
+
+  .faqContent {
+    font-size: 300%;
+    height: 80%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+  }
+
+  .faq {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-family: 'Handlee', cursive;
+  }
+
+  .question {
+    font-size: 100%;
+    font-weight: bold;
+  }
+
+  .answer {
+    font-size: 80%;
+  }
+
+  .glyphicon-chevron-right {
+    font-size: 15px;
+    padding-left: 50%;
+  }
+
+  .hisStory {
+    font-family: BS, cursive;
+    font-size: 300%;
+  }
+
+  .herStory {
+    font-family: BS, cursive;
+    font-size: 300%;
+  }
+
+  .his {
+    padding-left: 3%;
+    font-size: 75%;
+    font-family: 'Cormorant', serif;
+  }
+
+  .her {
+    padding-right: 3%;
+    font-size: 75%;
+    font-family: 'Cormorant', serif;
+  }
+
+  .story {
+    padding-bottom: 3%;
+  }
+
+  .storySub {
+    border-radius: 50px;
+    border-width: 3px;
+    border-style:solid;
+    border-color: #D88695
+    padding: 20px;
+    width: 60%;
+  }
+}
+
 
 /*
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
-
+/*vicki's*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .parallax {
       /* The image used */
       background-image: url("image/cPhoto2.jpg");
 
       /* Set a specific height */
-      height: 500px;
+      height: 450px;
 
       /* Create the parallax scrolling effect */
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: 100%;
   }
 
   .row {
@@ -841,7 +1659,7 @@ a:hover {
 
   .menubar {
     background-color: #F9F0E0;
-    height: 3%;
+    height: 7%;
     width: 100%;
     position: fixed;
     display: block;
@@ -884,12 +1702,12 @@ a:hover {
 
   .info {
     font-size: 300%;
-    height: 75%;
+    height: 70%;
     width: 100%;
   }
 
   .infoContent {
-    padding-top: 10%;
+    padding-top: 3%;
   }
 
   .map {
@@ -935,7 +1753,7 @@ a:hover {
     font-size: 30%;
     font-family: 'Josefin Sans', sans-serif;
     padding: 1%;
-    width: 10%;
+    width: 15%;
     transition: all 0.5s;
     cursor: pointer;
     margin: 1%;
@@ -1005,14 +1823,8 @@ a:hover {
   .faqContent {
     font-size: 300%;
     height: 80%;
-    padding-top: 2%;
+    padding-top: 5%;
     padding-bottom: 2%;
-  }
-
-  .faq {
-    padding-top: 2%;
-    padding-bottom: 5%;
-    font-family: 'Handlee', cursive;
   }
 
   .question {
@@ -1029,6 +1841,40 @@ a:hover {
     padding-left: 50%;
   }
 
+  .hisStory {
+    font-family: BS, cursive;
+    font-size: 300%;
+  }
+
+  .herStory {
+    font-family: BS, cursive;
+    font-size: 300%;
+  }
+
+  .his {
+    padding-left: 3%;
+    font-size: 75%;
+    font-family: 'Cormorant', serif;
+  }
+
+  .her {
+    padding-right: 3%;
+    font-size: 75%;
+    font-family: 'Cormorant', serif;
+  }
+
+  .story {
+    padding-bottom: 3%;
+  }
+
+  .storySub {
+    border-radius: 50px;
+    border-width: 3px;
+    border-style:solid;
+    border-color: #D88695
+    padding: 20px;
+    width: 45%;
+  }
 }
 
 /*
@@ -1245,6 +2091,41 @@ a:hover {
     font-size: 15px;
     padding-left: 50%;
   }
+
+  .hisStory {
+    font-family: BS, cursive;
+    font-size: 300%;
+  }
+
+  .herStory {
+    font-family: BS, cursive;
+    font-size: 300%;
+  }
+
+  .his {
+    padding-left: 3%;
+    font-size: 75%;
+    font-family: 'Cormorant', serif;
+  }
+
+  .her {
+    padding-right: 3%;
+    font-size: 75%;
+    font-family: 'Cormorant', serif;
+  }
+
+  .story {
+    padding-bottom: 3%;
+  }
+
+  .storySub {
+    border-radius: 50px;
+    border-width: 3px;
+    border-style:solid;
+    border-color: #D88695
+    padding: 20px;
+    width: 60%;
+  }
 }
 
 /*
@@ -1460,5 +2341,40 @@ a:hover {
   .glyphicon-chevron-right {
     font-size: 15px;
     padding-left: 50%;
+  }
+
+  .hisStory {
+    font-family: BS, cursive;
+    font-size: 300%;
+  }
+
+  .herStory {
+    font-family: BS, cursive;
+    font-size: 300%;
+  }
+
+  .his {
+    padding-left: 3%;
+    font-size: 75%;
+    font-family: 'Cormorant', serif;
+  }
+
+  .her {
+    padding-right: 3%;
+    font-size: 75%;
+    font-family: 'Cormorant', serif;
+  }
+
+  .story {
+    padding-bottom: 3%;
+  }
+
+  .storySub {
+    border-radius: 50px;
+    border-width: 3px;
+    border-style:solid;
+    border-color: #D88695
+    padding: 20px;
+    width: 60%;
   }
 }
