@@ -341,6 +341,43 @@ a:hover {
     padding-left: 50%;
   }
 
+  .hisStory {
+    font-family: BS, cursive;
+    font-size: 300%;
+  }
+
+  .herStory {
+    font-family: BS, cursive;
+    font-size: 300%;
+  }
+
+  .his {
+    padding-left: 3%;
+    font-size: 75%;
+    font-family: 'Cormorant', serif;
+  }
+
+  .her {
+    padding-right: 3%;
+    font-size: 75%;
+    font-family: 'Cormorant', serif;
+  }
+
+  .story {
+    padding-bottom: 3%;
+  }
+
+  .storySub {
+    border-radius: 50px;
+    border-width: 3px;
+    border-style:solid;
+    border-color: #D88695
+    padding: 20px;
+    width: 60%;
+  }
+
+}
+
 }
 
 /*
@@ -354,7 +391,7 @@ a:hover {
       background-image: url("image/cPhoto2.jpg");
 
       /* Set a specific height */
-      height: 600px;
+      height: 520px;
 
       /* Create the parallax scrolling effect */
       background-attachment: fixed;
@@ -370,7 +407,7 @@ a:hover {
 
   .menubar {
     background-color: #F9F0E0;
-    height: 3%;
+    height: 7%;
     width: 100%;
     position: fixed;
     display: block;
@@ -413,14 +450,16 @@ a:hover {
 
   .info {
     font-size: 300%;
-    height: 75%;
+    height: 62%;
     width: 100%;
   }
 
   .infoContent {
-    padding-top: 10%;
-    height: 75%;
-    width: 100%;
+    padding-top: 2%;
+  }
+
+  .map {
+    height: 62%;
   }
 
   .comingSoon {
@@ -569,7 +608,7 @@ a:hover {
       background-image: url("image/cPhoto2.jpg");
 
       /* Set a specific height */
-      height: 600px;
+      height: 400px;
 
       /* Create the parallax scrolling effect */
       background-attachment: fixed;
@@ -634,8 +673,10 @@ a:hover {
 
   .infoContent {
     padding-top: 10%;
-    height: 75%;
-    width: 100%;
+  }
+
+  .map {
+    height: 60%;
   }
 
   .comingSoon {
@@ -784,7 +825,7 @@ a:hover {
       background-image: url("image/cPhoto2.jpg");
 
       /* Set a specific height */
-      height: 600px;
+      height: 500px;
 
       /* Create the parallax scrolling effect */
       background-attachment: fixed;
@@ -849,8 +890,10 @@ a:hover {
 
   .infoContent {
     padding-top: 10%;
-    height: 75%;
-    width: 100%;
+  }
+
+  .map {
+    height: 60%;
   }
 
   .comingSoon {
@@ -1064,8 +1107,10 @@ a:hover {
 
   .infoContent {
     padding-top: 10%;
-    height: 75%;
-    width: 100%;
+  }
+
+  .map {
+    height: 60%;
   }
 
   .comingSoon {
@@ -1278,8 +1323,10 @@ a:hover {
 
   .infoContent {
     padding-top: 10%;
-    height: 75%;
-    width: 100%;
+  }
+
+  .map {
+    height: 60%;
   }
 
   .comingSoon {
