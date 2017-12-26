@@ -1887,7 +1887,7 @@ a:hover {
       background-image: url("image/cPhoto2.jpg");
 
       /* Set a specific height */
-      height: 600px;
+      height: 250px;
 
       /* Create the parallax scrolling effect */
       background-attachment: fixed;
@@ -1903,7 +1903,7 @@ a:hover {
 
   .menubar {
     background-color: #F9F0E0;
-    height: 3%;
+    height: 12%;
     width: 100%;
     position: fixed;
     display: block;
@@ -1946,16 +1946,16 @@ a:hover {
 
   .info {
     font-size: 300%;
-    height: 75%;
+    height: 180%;
     width: 100%;
   }
 
   .infoContent {
-    padding-top: 10%;
+    padding-top: 3%;
   }
 
   .map {
-    height: 60%;
+    height: 100%;
   }
 
   .comingSoon {
@@ -1997,7 +1997,7 @@ a:hover {
     font-size: 30%;
     font-family: 'Josefin Sans', sans-serif;
     padding: 1%;
-    width: 10%;
+    width: 18%;
     transition: all 0.5s;
     cursor: pointer;
     margin: 1%;
@@ -2066,9 +2066,9 @@ a:hover {
 
   .faqContent {
     font-size: 300%;
-    height: 80%;
+    height: 515%;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 5%;
   }
 
   .question {
