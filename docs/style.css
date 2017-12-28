@@ -29,6 +29,13 @@ a:hover {
   font-weight: bold;
 }
 
+.menubar {
+  z-index: 3;
+}
+
+.glyphicon {
+  z-index: 1;
+}
 
 
 /* GRID SYSTEM */
