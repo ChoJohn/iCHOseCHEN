@@ -24,9 +24,14 @@ a:hover {
 }
 
 @font-face {
-  font-family:BS;
+  font-family: BS;
   src: url("./font/BlingtasticScript.ttf"); /* TTF file for CSS3 browsers */
   font-weight: bold;
+}
+
+@font-face {
+  font-family: Cor;
+  src: url("./font/Cormorant-LightItalic.ttf");
 }
 
 .menubar {
@@ -165,7 +170,7 @@ a:hover {
     position: fixed;
     display: block;
     top: 0px;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .menu {
@@ -210,7 +215,7 @@ a:hover {
 
   .infoContent {
     padding-top: 2%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .map {
@@ -357,13 +362,13 @@ a:hover {
   .his {
     padding-left: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .her {
     padding-right: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .story {
@@ -418,7 +423,7 @@ a:hover {
     top: 0px;
     font-size: 200%;
     padding-top: 1%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .menu {
@@ -463,7 +468,7 @@ a:hover {
 
   .infoContent {
     padding-top: 2%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .map {
@@ -609,13 +614,13 @@ a:hover {
   .his {
     padding-left: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .her {
     padding-right: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .story {
@@ -668,7 +673,7 @@ a:hover {
     position: fixed;
     display: block;
     top: 0px;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .menu {
@@ -713,7 +718,7 @@ a:hover {
 
   .infoContent {
     padding-top: 2%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .map {
@@ -860,13 +865,13 @@ a:hover {
   .his {
     padding-left: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .her {
     padding-right: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .story {
@@ -919,7 +924,7 @@ a:hover {
     position: fixed;
     display: block;
     top: 0px;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .menu {
@@ -964,7 +969,7 @@ a:hover {
 
   .infoContent {
     padding-top: 2%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .map {
@@ -1111,13 +1116,13 @@ a:hover {
   .his {
     padding-left: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .her {
     padding-right: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .story {
@@ -1172,7 +1177,7 @@ a:hover {
     top: 0px;
     padding-top: 2%;
     font-size: 200%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .menu {
@@ -1217,7 +1222,7 @@ a:hover {
 
   .infoContent {
     padding-top: 5%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .map {
@@ -1364,13 +1369,13 @@ a:hover {
   .his {
     padding-left: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .her {
     padding-right: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .story {
@@ -1425,7 +1430,7 @@ a:hover {
     top: 0px;
     padding-top: 2%;
     font-size: 150%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .menu {
@@ -1470,7 +1475,7 @@ a:hover {
 
   .infoContent {
     padding-top: 5%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .map {
@@ -1617,13 +1622,13 @@ a:hover {
   .his {
     padding-left: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .her {
     padding-right: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .story {
@@ -1677,7 +1682,7 @@ a:hover {
     position: fixed;
     display: block;
     top: 0px;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .menu {
@@ -1722,7 +1727,7 @@ a:hover {
 
   .infoContent {
     padding-top: 3%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .map {
@@ -1870,13 +1875,13 @@ a:hover {
   .his {
     padding-left: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .her {
     padding-right: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .story {
@@ -1929,7 +1934,7 @@ a:hover {
     position: fixed;
     display: block;
     top: 0px;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .menu {
@@ -1974,7 +1979,7 @@ a:hover {
 
   .infoContent {
     padding-top: 3%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .map {
@@ -2121,13 +2126,13 @@ a:hover {
   .his {
     padding-left: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .her {
     padding-right: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .story {
@@ -2180,7 +2185,7 @@ a:hover {
     position: fixed;
     display: block;
     top: 0px;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .menu {
@@ -2225,7 +2230,7 @@ a:hover {
 
   .infoContent {
     padding-top: 10%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .map {
@@ -2372,13 +2377,13 @@ a:hover {
   .his {
     padding-left: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .her {
     padding-right: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .story {
@@ -2431,7 +2436,7 @@ a:hover {
     position: fixed;
     display: block;
     top: 0px;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .menu {
@@ -2476,7 +2481,7 @@ a:hover {
 
   .infoContent {
     padding-top: 10%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .map {
@@ -2623,13 +2628,13 @@ a:hover {
   .his {
     padding-left: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .her {
     padding-right: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .story {
@@ -2682,7 +2687,7 @@ a:hover {
     position: fixed;
     display: block;
     top: 0px;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .menu {
@@ -2727,7 +2732,7 @@ a:hover {
 
   .infoContent {
     padding-top: 10%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .map {
@@ -2874,13 +2879,13 @@ a:hover {
   .his {
     padding-left: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .her {
     padding-right: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .story {
@@ -2933,7 +2938,7 @@ a:hover {
     position: fixed;
     display: block;
     top: 0px;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .menu {
@@ -2978,7 +2983,7 @@ a:hover {
 
   .infoContent {
     padding-top: 10%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .map {
@@ -3125,13 +3130,13 @@ a:hover {
   .his {
     padding-left: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .her {
     padding-right: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .story {
@@ -3184,7 +3189,7 @@ a:hover {
     position: fixed;
     display: block;
     top: 0px;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .menu {
@@ -3229,7 +3234,7 @@ a:hover {
 
   .infoContent {
     padding-top: 10%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .map {
@@ -3376,13 +3381,13 @@ a:hover {
   .his {
     padding-left: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .her {
     padding-right: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .story {
@@ -3431,7 +3436,7 @@ a:hover {
     position: fixed;
     display: block;
     top: 0px;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .menu {
@@ -3476,7 +3481,7 @@ a:hover {
 
   .infoContent {
     padding-top: 10%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .map {
@@ -3623,13 +3628,13 @@ a:hover {
   .his {
     padding-left: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .her {
     padding-right: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .story {
@@ -3678,7 +3683,7 @@ a:hover {
     position: fixed;
     display: block;
     top: 0px;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .menu {
@@ -3723,7 +3728,7 @@ a:hover {
 
   .infoContent {
     padding-top: 10%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .map {
@@ -3870,13 +3875,13 @@ a:hover {
   .his {
     padding-left: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .her {
     padding-right: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .story {
@@ -3925,7 +3930,7 @@ a:hover {
     position: fixed;
     display: block;
     top: 0px;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .menu {
@@ -3970,7 +3975,7 @@ a:hover {
 
   .infoContent {
     padding-top: 10%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .map {
@@ -4117,13 +4122,13 @@ a:hover {
   .his {
     padding-left: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .her {
     padding-right: 3%;
     font-size: 75%;
-    font-family: 'Cormorant', serif;
+    font-family: Cor;
   }
 
   .story {
