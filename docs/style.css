@@ -893,6 +893,256 @@ a:hover {
 
 
 /*
+  ##Device = iPhoneX + Most new Androids (Portrait)
+  ##Screen = B/w 375px to 413px
+*/
+
+@media (min-width: 375px) and (height: 553px) and (orientation: portrait) {
+  .parallax {
+      /* The image used */
+      background-image: url("image/cPhoto2.jpg");
+
+      /* Set a specific height */
+      height: 175px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: left top;
+      background-repeat: no-repeat;
+      background-size: 100%;
+  }
+
+  .row {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .menubar {
+    background-color: #F9F0E0;
+    height: 5%;
+    width: 100%;
+    position: fixed;
+    display: block;
+    top: 0px;
+    font-family: Cor;
+    font-size: 75%;
+  }
+
+  .menu {
+    background-color: #F9F0E0;
+    display : flex;
+    align-items : center;
+    height: 100%;
+    top: 0px;
+  }
+
+  .glyphicon-heart {
+      font-size: 10px;
+      padding-left: 1%;
+      padding-right: 1%;
+  }
+
+  .glyphicon-thumbs-up {
+      font-size: 10px;
+  }
+
+  .tab {
+    color: #D88695;
+    display: block;
+    font-size: 200%;
+    padding-top: 1%;
+  }
+
+  .tabSpace {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .sideFlower {
+    padding-top: 5%;
+  }
+
+  .info {
+    font-size: 300%;
+    height: 70%;
+    width: 100%;
+  }
+
+  .infoContent {
+    padding-top: 5%;
+    font-family: Cor;
+    font-size: 50%;
+  }
+
+  .map {
+    height: 60%;
+  }
+
+  .comingSoon {
+    padding-top: 30%;
+    font-family: BS;
+    font-size: 100%;
+  }
+
+  .gradient_one {
+      border: 0;
+      height: 1px;
+      width: 25%;
+      background: #5D9688;
+      background-image: -webkit-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -moz-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -ms-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -o-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+  }
+
+  .rsvp {
+    height: 100%;
+    font-size: 200%;
+    font-family: 'Bad Script', cursive;
+  }
+
+  .attire {
+    height: 100%;
+    font-size: 100%;
+    font-family: 'Euphoria Script', cursive;
+  }
+
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #5D9688;
+    border: none;
+    color: #F9F0E0;
+    text-align: center;
+    font-size: 75%;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 1%;
+    width: 40%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1%;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20%;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 30%;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .countdown {
+    font-family: BS;
+    color: #D88695;
+    text-align: center;
+    font-size: 150%;
+    padding: 5%;
+  }
+
+  .clock {
+    font-size: 400%;
+  }
+
+  .centre {
+    text-align: center;
+  }
+
+  .day {
+    text-align: right;
+  }
+
+  .hour {
+    text-align: center;
+  }
+
+  .minute {
+    text-align: left;
+  }
+
+  .mainTitle {
+    font-size: 200%;
+  }
+
+  .glyphicon-heart-empty {
+    font-size: 10px;
+  }
+
+  .faqContent {
+    font-size: 300%;
+    height: 335%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Niconne', cursive;
+  }
+
+  .question {
+    font-size: 75%;
+    font-weight: bold;
+  }
+
+  .answer {
+    font-size: 50%;
+  }
+
+  .glyphicon-chevron-right {
+    font-size: 10px;
+  }
+
+  .hisStory {
+    font-family: BS, cursive;
+    font-size: 100%;
+  }
+
+  .herStory {
+    font-family: BS, cursive;
+    font-size: 100%;
+  }
+
+  .his {
+    padding-left: 3%;
+    font-size: 75%;
+    font-family: Cor;
+  }
+
+  .her {
+    padding-right: 3%;
+    font-size: 75%;
+    font-family: Cor;
+  }
+
+  .story {
+    padding-bottom: 3%;
+  }
+
+  .storySub {
+    border-radius: 50px;
+    border-width: 3px;
+    border-style:solid;
+    border-color: #D88695
+    padding: 20px;
+    width: 60%;
+  }
+}
+
+
+/*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 414px to 767px
 */
@@ -5125,9 +5375,263 @@ a:hover {
 
   .faqContent {
     font-size: 300%;
-    height: 155%;
+    height: 175%;
     padding-top: 2%;
     padding-bottom: 2%;
+    font-family: 'Niconne', cursive;
+  }
+
+  .question {
+    font-size: 100%;
+    font-weight: bold;
+  }
+
+  .answer {
+    font-size: 80%;
+  }
+
+  .glyphicon-chevron-right {
+    font-size: 15px;
+    padding-left: 50%;
+  }
+
+  .hisStory {
+    font-family: BS, cursive;
+    font-size: 300%;
+  }
+
+  .herStory {
+    font-family: BS, cursive;
+    font-size: 300%;
+  }
+
+  .his {
+    padding-left: 3%;
+    font-size: 75%;
+    font-family: Cor;
+  }
+
+  .her {
+    padding-right: 3%;
+    font-size: 75%;
+    font-family: Cor;
+  }
+
+  .story {
+    padding-bottom: 3%;
+  }
+
+  .storySub {
+    border-radius: 50px;
+    border-width: 3px;
+    border-style:solid;
+    border-color: #D88695
+    padding: 20px;
+    width: 50%;
+  }
+
+  .heart {
+    font-size: 50px;
+  }
+}
+
+
+/*
+  ##Device = Desktops
+  ##Screen = 1920px to higher resolution desktops
+*/
+
+@media (min-width: 1920px) {
+  .parallax {
+      /* The image used */
+      background-image: url("image/cPhoto2.jpg");
+
+      /* Set a specific height */
+      height: 650px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .row {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .menubar {
+    background-color: #F9F0E0;
+    height: 6%;
+    width: 100%;
+    position: fixed;
+    display: block;
+    top: 0px;
+    font-family: Cor;
+  }
+
+  .menu {
+    background-color: #F9F0E0;
+    display : flex;
+    align-items : center;
+    height: 100%;
+    top: 0px;
+  }
+
+  .glyphicon-heart {
+      font-size: 15px;
+      padding-left: 1%;
+      padding-right: 1%;
+  }
+
+  .glyphicon-thumbs-up {
+      font-size: 20px;
+  }
+
+  .tab {
+    color: #D88695;
+    display: block;
+    font-size: 200%;
+    padding-top: 1%;
+  }
+
+  .tabSpace {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .sideFlower {
+    padding-top: 1%;
+  }
+
+  .info {
+    font-size: 300%;
+    height: 65%;
+    width: 100%;
+  }
+
+  .infoContent {
+    padding-top: 2%;
+    font-size: 150%;
+    font-family: Cor;
+  }
+
+  .map {
+    height: 60%;
+  }
+
+  .comingSoon {
+    padding-top: 25%;
+    font-family: BS;
+    font-size: 500%;
+  }
+
+  .gradient_one {
+      border: 0;
+      height: 1px;
+      width: 25%;
+      background: #5D9688;
+      background-image: -webkit-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -moz-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -ms-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+      background-image: -o-linear-gradient(left, #BED8D2, #5D9688, #BED8D2);
+  }
+
+  .rsvp {
+    height: 100%;
+    font-size: 200%;
+    font-family: 'Bad Script', cursive;
+  }
+
+  .attire {
+    height: 100%;
+    font-size: 100%;
+    font-family: 'Euphoria Script', cursive;
+  }
+
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #5D9688;
+    border: none;
+    color: #F9F0E0;
+    text-align: center;
+    font-size: 30%;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 1%;
+    width: 10%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1%;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20%;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 30%;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .countdown {
+    font-family: BS;
+    color: #D88695;
+    text-align: center;
+    font-size: 300%;
+    padding: 5%;
+  }
+
+  .clock {
+    font-size: 400%;
+  }
+
+  .centre {
+    text-align: center;
+  }
+
+  .day {
+    text-align: right;
+  }
+
+  .hour {
+    text-align: center;
+  }
+
+  .minute {
+    text-align: left;
+  }
+
+  .mainTitle {
+    font-size: 200%;
+  }
+
+  .glyphicon-heart-empty {
+    font-size: 20px;
+  }
+
+  .faqContent {
+    font-size: 300%;
+    height: 125%;
+    padding-top: 2%;
+    padding-bottom: 5%;
     font-family: 'Niconne', cursive;
   }
 
