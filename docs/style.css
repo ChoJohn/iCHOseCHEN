@@ -4368,7 +4368,7 @@ a:hover {
   .faqContent {
     font-size: 300%;
     height: 180%;
-    padding-top: 2%;
+    padding-top: 5%;
     padding-bottom: 2%;
     font-family: 'Handlee', cursive;
   }
@@ -4379,7 +4379,8 @@ a:hover {
   }
 
   .answer {
-    font-size: 80%;
+    font-size: 70%;
+    font-weight: lighter;
   }
 
   .glyphicon-chevron-right {
