@@ -1,5 +1,5 @@
 body {
-  background: #F9F0E0 url();
+  background: #FFFAF6 url();
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -11,12 +11,12 @@ html,body {
     height: 100%;
     margin: 0;
     padding: 0;
-    color: #D88695;
+    color: #FFB6C1;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 a {
-  color: #D88695;
+  color: #FFB6C1;
 }
 
 a:hover {
@@ -145,7 +145,7 @@ a:hover {
 @media (min-width: 320px) and (orientation: portrait) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 150px;
@@ -163,7 +163,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 6%;
     width: 100%;
     position: fixed;
@@ -174,7 +174,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -192,7 +192,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -256,7 +256,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 50%;
     font-family: 'Josefin Sans', sans-serif;
@@ -294,7 +294,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 150%;
     padding: 5%;
@@ -379,7 +379,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 60%;
   }
@@ -397,7 +397,7 @@ a:hover {
 @media (min-width: 360px) and (orientation: portrait) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 150px;
@@ -415,7 +415,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 5%;
     width: 100%;
     position: fixed;
@@ -426,7 +426,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -444,7 +444,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -509,7 +509,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 50%;
     font-family: 'Josefin Sans', sans-serif;
@@ -547,7 +547,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 150%;
     padding: 5%;
@@ -632,7 +632,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 60%;
   }
@@ -650,7 +650,7 @@ a:hover {
 @media (min-width: 375px) and (orientation: portrait) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 175px;
@@ -668,7 +668,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 5%;
     width: 100%;
     position: fixed;
@@ -679,7 +679,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -697,7 +697,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -762,7 +762,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 75%;
     font-family: 'Josefin Sans', sans-serif;
@@ -800,7 +800,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 150%;
     padding: 5%;
@@ -885,7 +885,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 60%;
   }
@@ -900,7 +900,7 @@ a:hover {
 @media (min-width: 375px) and (height: 553px) and (orientation: portrait) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 175px;
@@ -918,7 +918,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 5%;
     width: 100%;
     position: fixed;
@@ -929,7 +929,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -947,7 +947,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -1012,7 +1012,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 75%;
     font-family: 'Josefin Sans', sans-serif;
@@ -1050,7 +1050,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 150%;
     padding: 5%;
@@ -1135,7 +1135,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 60%;
   }
@@ -1150,7 +1150,7 @@ a:hover {
 @media (min-width: 414px) and (orientation: portrait) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 180px;
@@ -1168,7 +1168,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 5%;
     width: 100%;
     position: fixed;
@@ -1178,7 +1178,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -1196,7 +1196,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -1260,7 +1260,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 75%;
     font-family: 'Josefin Sans', sans-serif;
@@ -1298,7 +1298,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 150%;
     padding: 5%;
@@ -1383,7 +1383,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 60%;
   }
@@ -1398,7 +1398,7 @@ a:hover {
 @media (min-width: 568px) and (orientation: landscape) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 225px;
@@ -1416,7 +1416,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 12%;
     width: 100%;
     position: fixed;
@@ -1426,7 +1426,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -1444,7 +1444,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -1508,7 +1508,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 50%;
     font-family: 'Josefin Sans', sans-serif;
@@ -1546,7 +1546,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 150%;
     padding: 5%;
@@ -1631,7 +1631,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 60%;
   }
@@ -1650,7 +1650,7 @@ a:hover {
 @media (min-width: 640px) and (orientation: landscape) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 250px;
@@ -1668,7 +1668,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 11%;
     width: 100%;
     position: fixed;
@@ -1678,7 +1678,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -1696,7 +1696,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -1760,7 +1760,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 50%;
     font-family: 'Josefin Sans', sans-serif;
@@ -1798,7 +1798,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 150%;
     padding: 5%;
@@ -1883,7 +1883,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 60%;
   }
@@ -1902,7 +1902,7 @@ a:hover {
 @media (min-width: 667px) and (orientation: landscape) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 275px;
@@ -1920,7 +1920,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 12%;
     width: 100%;
     position: fixed;
@@ -1930,7 +1930,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -1948,7 +1948,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -2012,7 +2012,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 50%;
     font-family: 'Josefin Sans', sans-serif;
@@ -2050,7 +2050,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 200%;
     padding: 5%;
@@ -2135,7 +2135,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 60%;
   }
@@ -2153,7 +2153,7 @@ a:hover {
 @media (min-width: 736px) and (orientation: landscape) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 300px;
@@ -2171,7 +2171,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 10%;
     width: 100%;
     position: fixed;
@@ -2181,7 +2181,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -2199,7 +2199,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -2263,7 +2263,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 50%;
     font-family: 'Josefin Sans', sans-serif;
@@ -2301,7 +2301,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 300%;
     padding: 5%;
@@ -2386,7 +2386,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 60%;
   }
@@ -2404,7 +2404,7 @@ a:hover {
 @media (min-width: 768px) and (orientation: portrait) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 300px;
@@ -2422,7 +2422,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 8%;
     width: 100%;
     position: fixed;
@@ -2434,7 +2434,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -2452,7 +2452,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -2516,7 +2516,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 50%;
     font-family: 'Josefin Sans', sans-serif;
@@ -2554,7 +2554,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 300%;
     padding: 5%;
@@ -2640,7 +2640,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 60%;
   }
@@ -2659,7 +2659,7 @@ a:hover {
 @media (min-width: 800px) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 350px;
@@ -2677,7 +2677,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 8%;
     width: 100%;
     position: fixed;
@@ -2687,7 +2687,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -2705,7 +2705,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -2769,7 +2769,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 50%;
     font-family: 'Josefin Sans', sans-serif;
@@ -2807,7 +2807,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 300%;
     padding: 5%;
@@ -2893,7 +2893,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 60%;
   }
@@ -2912,7 +2912,7 @@ a:hover {
 @media (min-width: 812px) and (orientation: landscape) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 250px;
@@ -2930,7 +2930,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 12%;
     width: 100%;
     position: fixed;
@@ -2940,7 +2940,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -2958,7 +2958,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -3022,7 +3022,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 50%;
     font-family: 'Josefin Sans', sans-serif;
@@ -3060,7 +3060,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 300%;
     padding: 5%;
@@ -3146,7 +3146,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 60%;
   }
@@ -3165,7 +3165,7 @@ a:hover {
 @media (min-width: 960px) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 350px;
@@ -3183,7 +3183,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 8%;
     width: 100%;
     position: fixed;
@@ -3193,7 +3193,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -3211,7 +3211,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -3275,7 +3275,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 50%;
     font-family: 'Josefin Sans', sans-serif;
@@ -3313,7 +3313,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 300%;
     padding: 5%;
@@ -3399,7 +3399,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 60%;
   }
@@ -3417,7 +3417,7 @@ a:hover {
 @media (min-width: 992px) and (orientation: portrait) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 800px;
@@ -3435,7 +3435,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 9%;
     width: 100%;
     position: fixed;
@@ -3447,7 +3447,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -3465,7 +3465,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -3529,7 +3529,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 30%;
     font-family: 'Josefin Sans', sans-serif;
@@ -3567,7 +3567,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 300%;
     padding: 5%;
@@ -3653,7 +3653,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 60%;
   }
@@ -3672,7 +3672,7 @@ a:hover {
 @media (min-width: 1024px) and (orientation: portrait) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 400px;
@@ -3690,7 +3690,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 9%;
     width: 100%;
     position: fixed;
@@ -3702,7 +3702,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -3720,7 +3720,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -3784,7 +3784,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 30%;
     font-family: 'Josefin Sans', sans-serif;
@@ -3822,7 +3822,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 300%;
     padding: 5%;
@@ -3908,7 +3908,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 60%;
   }
@@ -3927,7 +3927,7 @@ a:hover {
 @media (min-width: 1024px) and (orientation: landscape){
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 450px;
@@ -3945,7 +3945,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 7%;
     width: 100%;
     position: fixed;
@@ -3955,7 +3955,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -3973,7 +3973,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -4037,7 +4037,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 30%;
     font-family: 'Josefin Sans', sans-serif;
@@ -4075,7 +4075,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 300%;
     padding: 5%;
@@ -4161,7 +4161,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 50%;
   }
@@ -4180,7 +4180,7 @@ a:hover {
 @media (min-width: 1240px) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 500px;
@@ -4198,7 +4198,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 7%;
     width: 100%;
     position: fixed;
@@ -4208,7 +4208,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -4226,7 +4226,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -4290,7 +4290,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 30%;
     font-family: 'Josefin Sans', sans-serif;
@@ -4328,7 +4328,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 300%;
     padding: 5%;
@@ -4414,7 +4414,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 50%;
   }
@@ -4433,7 +4433,7 @@ a:hover {
 @media (min-width: 1280px) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 500px;
@@ -4451,7 +4451,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 7%;
     width: 100%;
     position: fixed;
@@ -4461,7 +4461,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -4479,7 +4479,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -4543,7 +4543,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 30%;
     font-family: 'Josefin Sans', sans-serif;
@@ -4581,7 +4581,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 300%;
     padding: 5%;
@@ -4668,7 +4668,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 50%;
   }
@@ -4687,7 +4687,7 @@ a:hover {
 @media (min-width: 1366px) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 500px;
@@ -4705,7 +4705,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 8%;
     width: 100%;
     position: fixed;
@@ -4715,7 +4715,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -4733,7 +4733,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -4797,7 +4797,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 30%;
     font-family: 'Josefin Sans', sans-serif;
@@ -4835,7 +4835,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 300%;
     padding: 5%;
@@ -4920,7 +4920,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 50%;
   }
@@ -4939,7 +4939,7 @@ a:hover {
 @media (min-width: 1366px) and (orientation: landscape) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 600px;
@@ -4957,7 +4957,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 8%;
     width: 100%;
     position: fixed;
@@ -4967,7 +4967,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -4985,7 +4985,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -5049,7 +5049,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 30%;
     font-family: 'Josefin Sans', sans-serif;
@@ -5087,7 +5087,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 300%;
     padding: 5%;
@@ -5172,7 +5172,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 50%;
   }
@@ -5191,7 +5191,7 @@ a:hover {
 @media (min-width: 1440px) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 550px;
@@ -5209,7 +5209,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 6%;
     width: 100%;
     position: fixed;
@@ -5219,7 +5219,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -5237,7 +5237,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -5301,7 +5301,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 30%;
     font-family: 'Josefin Sans', sans-serif;
@@ -5339,7 +5339,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 300%;
     padding: 5%;
@@ -5425,7 +5425,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 50%;
   }
@@ -5444,7 +5444,7 @@ a:hover {
 @media (min-width: 1920px) {
   .parallax {
       /* The image used */
-      background-image: url("image/cPhoto2.jpg");
+      background-image: url("image/c.jpeg");
 
       /* Set a specific height */
       height: 650px;
@@ -5462,7 +5462,7 @@ a:hover {
   }
 
   .menubar {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     height: 6%;
     width: 100%;
     position: fixed;
@@ -5472,7 +5472,7 @@ a:hover {
   }
 
   .menu {
-    background-color: #F9F0E0;
+    background-color: #FFFAF6;
     display : flex;
     align-items : center;
     height: 100%;
@@ -5490,7 +5490,7 @@ a:hover {
   }
 
   .tab {
-    color: #D88695;
+    color: #FFB6C1;
     display: block;
     font-size: 200%;
     padding-top: 1%;
@@ -5555,7 +5555,7 @@ a:hover {
     border-radius: 4px;
     background-color: #5D9688;
     border: none;
-    color: #F9F0E0;
+    color: #FFFAF6;
     text-align: center;
     font-size: 30%;
     font-family: 'Josefin Sans', sans-serif;
@@ -5593,7 +5593,7 @@ a:hover {
 
   .countdown {
     font-family: BS;
-    color: #D88695;
+    color: #FFB6C1;
     text-align: center;
     font-size: 300%;
     padding: 5%;
@@ -5679,7 +5679,7 @@ a:hover {
     border-radius: 50px;
     border-width: 3px;
     border-style:solid;
-    border-color: #D88695
+    border-color: #FFB6C1
     padding: 20px;
     width: 50%;
   }
